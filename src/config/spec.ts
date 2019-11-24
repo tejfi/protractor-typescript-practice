@@ -1,4 +1,4 @@
-import { HomePage } from '../PageObjects/HomePage';
+import { HomePage } from '../Page/HomePage';
 import { browser, WebElement } from 'protractor';
 
 describe('Test vividmind', () => {
@@ -25,7 +25,7 @@ describe('Test vividmind', () => {
 
     it('User can change the site languae easily from EN to HU and vice versa', () => {
         var enLanguageSwitch: WebElement = homePage.getEnLanguageSwitch();
-        var huLanguageSwitch: WebElement = homePage.getHuLanguaSwtich();
+        var huLanguageSwitch: WebElement = homePage.getHuLanguageSwitch()
         var actualContactLinkText = homePage.getContactLinkSpanText();
         var expectedContactLinkTextHu = 'Kapcsolat';
         var exPectedContactLinkTextEn = 'Contact';

@@ -39,7 +39,7 @@ export class HomePage {
     }
 
 
-    getHuLanguaSwtich(): protractor.WebElement {
+    getHuLanguageSwitch(): protractor.WebElement {
         return this.huLanguageSwitch;
     }
 

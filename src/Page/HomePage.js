@@ -34,7 +34,7 @@ var HomePage = /** @class */ (function () {
     HomePage.prototype.getContactTabText = function () {
         return this.contactTab.getText();
     };
-    HomePage.prototype.getHuLanguaSwtich = function () {
+    HomePage.prototype.getHuLanguageSwitch = function () {
         return this.huLanguageSwitch;
     };
     HomePage.prototype.getEnLanguageSwitch = function () {

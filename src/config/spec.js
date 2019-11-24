@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var HomePage_1 = require("../PageObjects/HomePage");
+var HomePage_1 = require("../Page/HomePage");
 var protractor_1 = require("protractor");
 describe('Test vividmind', function () {
     var homePage = new HomePage_1.HomePage();
@@ -21,7 +21,7 @@ describe('Test vividmind', function () {
     });
     it('User can change the site languae easily from EN to HU and vice versa', function () {
         var enLanguageSwitch = homePage.getEnLanguageSwitch();
-        var huLanguageSwitch = homePage.getHuLanguaSwtich();
+        var huLanguageSwitch = homePage.getHuLanguageSwitch();
         var actualContactLinkText = homePage.getContactLinkSpanText();
         var expectedContactLinkTextHu = 'Kapcsolat';
         var exPectedContactLinkTextEn = 'Contact';
