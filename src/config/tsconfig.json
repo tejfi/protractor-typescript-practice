@@ -1,0 +1,26 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "watch": true,
+    "baseUrl": "./",
+    "removeComments": true,
+    "outDir": "./dist/out-tsc",
+    "mapRoot": "./dist/out-tsc/",
+    "module": "commonjs",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "types": ["jest"],
+    "typeRoots": [
+      "node_modules/@types",
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  }
+}
