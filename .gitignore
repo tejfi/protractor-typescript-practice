@@ -1,7 +1,8 @@
 # compiled output
 /tmp
 /out-tsc
-
+/src/config/spec.js
+/src/config/conf.js
 # dependencies
 /node_modules
 
