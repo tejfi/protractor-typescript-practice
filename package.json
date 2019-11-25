@@ -4,6 +4,7 @@
   "description": "End to End Tests for My Application",
   "main": "protractor.conf.js",
   "scripts": {
+    "start": "npm run start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "debug": "tsc --sourcemap"
   },
