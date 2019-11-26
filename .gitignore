@@ -1,8 +1,9 @@
 # compiled output
-/build
+/src/build
 
 # dependencies
 /node_modules
+/build
 
 # IDEs and editors
 /.idea
