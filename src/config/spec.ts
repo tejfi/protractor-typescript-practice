@@ -32,13 +32,11 @@ describe('Test vividmind', () => {
         if (enLanguageSwitch.isSelected()) {
             expect(actualContactLinkText)
                 .toBe(exPectedContactLinkTextEn);
-            console.log('Selected language is the:En');
 
 
         } else if (huLanguageSwitch.isSelected()) {
             expect(actualContactLinkText).
                 toBe(expectedContactLinkTextHu);
-            console.log('Selected Language is the:HU')
 
         }
     });

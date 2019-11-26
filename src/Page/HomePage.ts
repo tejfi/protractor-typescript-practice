@@ -15,7 +15,6 @@ export class HomePage {
                 return this.text;
             }
         }
-        console.log(currentText.getText());
         return currentText.getText();
     }
 
@@ -29,7 +28,6 @@ export class HomePage {
 
     getContactLinkSpanText() {
         let currentText = this.contactLinkSpan.getText();
-        console.log(currentText);
         return currentText;
 
     }
