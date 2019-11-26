@@ -1,4 +1,4 @@
-import { HomePage } from '../Page/HomePage';
+import { HomePage } from '../page/HomePage';
 import { browser, WebElement } from 'protractor';
 
 describe('Test vividmind', () => {
