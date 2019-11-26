@@ -1,8 +1,8 @@
-# compiled output
-/build
 
-# dependencies
+
+# dependencies and compiled outputs
 /node_modules
+/build
 
 # IDEs and editors
 /.idea
