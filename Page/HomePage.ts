@@ -9,13 +9,12 @@ export class HomePage {
     huLanguageSwitch = protractor.element(protractor.by.xpath("//div[@id='lang-hu']//span[contains(text(),' HU ')]"));
     enLanguageSwitch = protractor.element(protractor.by.xpath("//div[@id='lang-en']//span[contains(text(),' EN ')]"));
     getHeading() {
-        var currentText = {
+        let currentText = {
             text: protractor.browser.getTitle(),
             getText: function () {
                 return this.text;
             }
         }
-        console.log(currentText.getText());
         return currentText.getText();
     }
 
@@ -29,7 +28,6 @@ export class HomePage {
 
     getContactLinkSpanText() {
         let currentText = this.contactLinkSpan.getText();
-        console.log(currentText);
         return currentText;
 
     }
