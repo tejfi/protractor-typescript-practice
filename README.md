@@ -4,14 +4,15 @@ Protractor Sample Tests with Typescript and page object model
 
 
 ### Setup:
+#### Follow setup steps described here:
 * Install Node (v6.x.x or later)
-    Follow setup steps described here
-* npm install to install the project dependencies
-     'npm install protractor -g' to install protractor globally
-* Now install 'selenium standalone- webdriver-manager update'
-    In a separate command line window, 
-        'run webdriver-manager' start and keep it running.
+#### Open the terminal and Run the following commands:
 
-Run tests:
+* `npm install` to install the project dependencies
+* `npm run build` to build run TypeScript compiler
+* `npm install protractor -g` to install protractor globally
+* `npm run dev` Watch input files and trigger recompilation on changes
+* Now install selenium: `selenium standalone- webdriver-manager update`
 
-run 'npm run start'
+#### In a separate command line window:
+* run `webdriver-manager` start and keep it running.
