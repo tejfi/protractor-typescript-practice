@@ -4,8 +4,9 @@
   "description": "End to End Tests for My Application",
   "main": "protractor.conf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "tsc --sourcemap"
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "tejfi",
   "license": "ISC",
