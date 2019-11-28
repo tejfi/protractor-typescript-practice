@@ -4,8 +4,8 @@
     "watch": true,
     "baseUrl": "./",
     "removeComments": true,
-    "outDir": "./dist/out-tsc",
-    "mapRoot": "./dist/out-tsc/",
+    "outDir": "build",
+    "mapRoot": "build",
     "module": "commonjs",
     "sourceMap": true,
     "declaration": false,
@@ -14,7 +14,9 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "target": "es5",
-    "types": ["jest"],
+    "types": [
+      "jest"
+    ],
     "typeRoots": [
       "node_modules/@types",
     ],
