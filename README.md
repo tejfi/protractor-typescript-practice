@@ -2,8 +2,8 @@
 
 Protractor Sample Tests with Typescript and page object model
 
+## Setup:
 
-### Setup:
 #### Follow setup steps described here:
 * Install Node (v6.x.x or later)
 #### Open the terminal and Run the following commands:
