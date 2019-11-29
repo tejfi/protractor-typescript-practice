@@ -15,4 +15,4 @@ Protractor Sample Tests with Typescript and page object model
 * Now install selenium: `selenium standalone- webdriver-manager update`
 
 #### In a separate command line window:
-* run `webdriver-manager` start and keep it running.
+* run `webdriver-manager start` and keep it running.
